@@ -1,1 +1,1 @@
-Tic-tac-toe is a classic two-player game played on a 3x3 grid. Players take turns marking a space in the grid with their respective symbols, typically X and O. The objective is to be the first to get three of their symbols in a row, which can be horizontal, vertical, or diagonal. If all nine squares are filled without either player achieving this, the game is a draw. It's a simple yet strategic game often used to teach basic concepts of game theory and strategy.
+
