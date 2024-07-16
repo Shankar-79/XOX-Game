@@ -1,0 +1,87 @@
+ *{
+    margin: 0;
+    padding: 0;
+        }
+        body {
+           background-image:url(background.jpg);
+           font-style: italic;
+            text-align: center;
+            color: #f7f3f3;
+            font: size 64px;
+            text-decoration: solid;
+            text-transform: inherit;
+        } 
+    .container{
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .game{
+        height: 60vmin;
+        width: 60vmin;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5vmin;
+    }
+    .box{
+        height: 18vmin;
+        width: 18vmin;
+        border-radius: 1rem;
+        box-shadow: 0 016rem rgba(rgb(174, 0, 0), green, blue, alpha);
+        background-color: #000000;
+        border-color: #fcf9f9;
+        font-size:12vmin;;
+        color: #fe0000;
+        font-style: inherit;
+    }
+    #reset-btn{
+        padding: 1rem; ;
+        color: rgb(234, 232, 232);
+        text-decoration: double;
+        font-size: 32px;
+        font-style: oblique;
+       border-style: hidden;
+        background-color: #000000;
+        gap: 1.5vmin;
+    }
+
+    #new-game{adding: 1rem; ;
+        box-shadow: #f7f3f3;
+        background-color: #efecec;
+        color: rgb(6, 6, 6);
+        font-size: 24px;
+        font-style: italic;
+        border-radius: 0%;
+       border-style: hidden;
+        gap: 1.5vmin;
+
+    }
+    .msg-container{
+        height:32vmin;
+        width: 64vmin;
+        border-radius: 6px;
+       font-style: inherit;
+       background-image: url(background.jpg);
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        align-items: center;
+
+    }
+    #msg{
+        color: #faf4f4;
+        font-size: 18vmin;
+       align-items: center;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     
+       text-transform: uppercase;
+       
+    }
+    .hide{
+        display: none;
+    }
+    
